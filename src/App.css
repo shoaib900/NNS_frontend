@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*             home */
+
+.nav-item a {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.backmag {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  background: linear-gradient(rgba(86, 156, 84, 0.1), rgba(111, 212, 98, 0.8)),
+    url("./img/p2.jpg") fixed center;
+}
+.headingmain {
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  text-align: start;
+  width: 600px;
+  /* background-color: red; */
+}
+.typical {
+  color: crimson;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+.logo {
+  color: white;
+}
+.nav-bg {
+  background-color: rgba(99, 202, 51, 0.95);
+  transition: ease-in-out 0.3s;
+}
+.footerColor {
+  background-color: rgba(99, 202, 51, 0.95);
+  width: auto;
+  padding: 5px;
+}
+.navbard {
+  background-color: rgb(56, 54, 54);
+  height: 60px;
+  width: 100%;
+}
+.cardsetting {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: red; */
+  margin: 5px;
+  width: 100%;
+  justify-content: space-around;
+}
+.card-body {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  background-color: burlywood;
+}
+.card-body:hover {
+  background-color: grey;
+  color: white;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
